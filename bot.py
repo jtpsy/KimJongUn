@@ -5,7 +5,7 @@ import os
 import random
 
 # ── Config ──────────────────────────────────────────────────────────────────
-DISCORD_TOKEN = os.environ["MTQ4NDM1NjI2MzA4ODIzMDU1Mw.GFeCxj.iXvwHGU-bNIz-alA4x80M9z7XjR6tI3j2LOQSc"]
+DISCORD_TOKEN = os.environ["MTQ4NDM1NjI2MzA4ODIzMDU1Mw.GBvKx5.dfNPHXYtMCx5kyWBr4cSOmhPdmJkD_D3k2ZvYU"]
 
 GROQ_KEYS = [v for k, v in os.environ.items() if k.startswith("GROQ_API_KEY") and v]
 
